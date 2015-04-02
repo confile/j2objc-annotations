@@ -1,0 +1,1 @@
+j2objc --no-package-directories -use-arc -d build/classes -sourcepath src/main/java:build/source/apt src/main/java/com/example/SomeClassA.java -verbose -classpath lib/auto-factory-0.1-beta1.jar:lib/auto-service-1.0-rc1.jar:lib/javax.inject-1.jar:lib/guava-16.0.jar:lib/javawriter-2.4.0.jar:lib/dagger-1.2.0.jar
